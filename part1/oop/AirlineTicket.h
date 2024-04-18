@@ -1,17 +1,18 @@
 #include <string>
 #include <iostream>
+#include <optional>
 
 class AirlineTicket
 {
     public:
         AirlineTicket(); // constructor, 생성자. 객체 생성시 자동 호출됨.
-        AirlineTicket(std::string, int, bool);
+        AirlineTicket(const std::string&, int, bool);
         ~AirlineTicket(); // destructor, 파괴자. 객체 파괴시 자동 호출됨.
         
         double calculatePriceInDollars() const;
         
         std::string getPassengerName() const;
-        void setPassengerName(std::string name);
+        void setPassengerName(const std::string& name);
 
         int getNumberOfMiles() const;
         void setNumberOfMiles(int miles);
@@ -19,10 +20,14 @@ class AirlineTicket
         bool hasEliteSuperRewardsStatus() const;
         void setHasEliteSuperRewardsStatus(bool status);
 
+        std::optional<std::string> getFrequentFlyerNumber() const;
+        void setFrequentFlyerNumber(std::string number);
     private:
         std::string m_passengerName;
         int m_numberOfMiles;
         bool m_hasEliteSuperRewardsStatus;
+        std::optional<std::string> m_frequentFlyerNumber;
+        
 };
 
 
@@ -38,7 +43,7 @@ AirlineTicket::AirlineTicket()
     m_hasEliteSuperRewardsStatus = false;
 }
 
-AirlineTicket::AirlineTicket(std::string name, int miles, bool status)
+AirlineTicket::AirlineTicket(const std::string& name, int miles, bool status)
 {
     m_passengerName = name;
     m_numberOfMiles = miles;
@@ -65,7 +70,7 @@ std::string AirlineTicket::getPassengerName() const
     return m_passengerName;
 }
 
-void AirlineTicket::setPassengerName(std::string name)
+void AirlineTicket::setPassengerName(const std::string& name)
 {
     m_passengerName = name;
 }
@@ -88,4 +93,14 @@ bool AirlineTicket::hasEliteSuperRewardsStatus() const
 void AirlineTicket::setHasEliteSuperRewardsStatus(bool flag)
 {
     m_hasEliteSuperRewardsStatus = flag;
+}
+
+std::optional<std::string> AirlineTicket::getFrequentFlyerNumber() const
+{
+    return m_frequentFlyerNumber;
+}
+
+void AirlineTicket::setFrequentFlyerNumber(std::string number)
+{
+    m_frequentFlyerNumber = number;
 }
