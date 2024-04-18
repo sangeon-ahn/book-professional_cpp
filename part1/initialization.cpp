@@ -19,4 +19,6 @@ int main()
 
     int* myArray = new int[4] { 0, 1, 2, 3 };
 
+    auto arr1 = { 11, 12 };
+    auto arr2 { 11, 12 }; // error
 }
