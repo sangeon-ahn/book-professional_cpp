@@ -1,4 +1,8 @@
 # 책: [Professional C++](https://www.amazon.com/Professional-C-Marc-Gregoire/dp/1119695406)
+
+## 목표
+2024년 5월 2일 입사 전까지 1회독(일 90p)
+
 ## 목차
 
 ### PART 1 - INTRODUCTION TO PROFESSIONAL C++
