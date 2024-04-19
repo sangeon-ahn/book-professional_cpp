@@ -2,7 +2,7 @@
 ## 목차
 
 ### PART 1 - INTRODUCTION TO PROFESSIONAL C++
-- [ ] 1장 - A Crash Course in C++ and the Standard Library
+- [x] 1장 - A Crash Course in C++ and the Standard Library
 - [ ] 2장 - Working with Strings and String Views
 - [ ] 3장 - Coding with Style
 ### PART 2 - PROFESSIONAL C++ SOFTWARE DESIGN 
