@@ -1,8 +1,8 @@
 # 책: [Professional C++](https://www.amazon.com/Professional-C-Marc-Gregoire/dp/1119695406)
 
 ## 목표
-2024년 5월 2일 입사 전까지 1회독(1070p / 12일 = 일 90p)
-못 지킬 확률: 80%
+- 2024년 5월 2일 입사 전까지 1회독(1070p / 12일 = 일 90p)
+- 못 지킬 확률: 80%
 
 ## 목차
 
