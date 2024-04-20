@@ -28,4 +28,11 @@ int main()
 
     cout << view2 << endl;
     cout << str << endl;
+
+    string s1 { "Hello" };
+    string_view sv { s1 + "World" };
+    cout << sv << endl;
+
+    auto custom_sv { "this is string_view"sv };
+    cout << custom_sv << endl;
 }
