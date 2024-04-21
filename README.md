@@ -5,7 +5,7 @@
 - 못 지킬 확률: 80%
 
 ## 진행도
-- 18%(216p/1200p)
+- 21.3%(256p/1200p)
 
 ## 목차
 
@@ -16,7 +16,7 @@
 ### PART 2 - PROFESSIONAL C++ SOFTWARE DESIGN 
 - [x] 4장 - Designing Professional C++ Programs
 - [x] 5장 - Designing with Objects
-- [ ] 6장 - Designing for Reuse
+- [x] 6장 - Designing for Reuse
 ### PART 3 - C++ CODING THE PROFESSIONAL WAY
 - [ ] 7장 - Memory Management
 - [ ] 8장 - Gaining Proficiency with Classes and Objects
