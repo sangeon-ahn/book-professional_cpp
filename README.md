@@ -15,7 +15,7 @@
 - [x] 3장 - Coding with Style
 ### PART 2 - PROFESSIONAL C++ SOFTWARE DESIGN 
 - [x] 4장 - Designing Professional C++ Programs
-- [ ] 5장 - Designing with Objects
+- [x] 5장 - Designing with Objects
 - [ ] 6장 - Designing for Reuse
 ### PART 3 - C++ CODING THE PROFESSIONAL WAY
 - [ ] 7장 - Memory Management
