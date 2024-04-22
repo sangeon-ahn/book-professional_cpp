@@ -5,7 +5,7 @@
 - 못 지킬 확률: 80%
 
 ## 진행도
-- 24.4%(294p/1200p)
+- 27.4%(329p/1200p)
 
 ## 목차
 
@@ -18,8 +18,8 @@
 - [x] 5장 - Designing with Objects
 - [x] 6장 - Designing for Reuse
 ### PART 3 - C++ CODING THE PROFESSIONAL WAY
-- [ ] 7장 - Memory Management
-- [ ] 8장 - Gaining Proficiency with Classes and Objects
+- [x] 7장 - Memory Management
+- [x] 8장 - Gaining Proficiency with Classes and Objects
 - [ ] 9장 - Mastering Classes and Objects
 - [ ] 10장 - Discovering Inheritance Techniques
 - [ ] 11장 - Odds and Ends
