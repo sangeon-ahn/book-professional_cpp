@@ -8,7 +8,7 @@
 - 못 지킬 확률: 80%
 
 ## 진행도
-- 29%(348p/1200p)
+- 31.7%(381p/1200p)
 
 ## 목차
 
@@ -23,7 +23,7 @@
 ### PART 3 - C++ CODING THE PROFESSIONAL WAY
 - [x] 7장 - Memory Management
 - [x] 8장 - Gaining Proficiency with Classes and Objects
-- [ ] 9장 - Mastering Classes and Objects
+- [x] 9장 - Mastering Classes and Objects
 - [ ] 10장 - Discovering Inheritance Techniques
 - [ ] 11장 - Odds and Ends
 - [ ] 12장 - Writing Generic Code with Templates
