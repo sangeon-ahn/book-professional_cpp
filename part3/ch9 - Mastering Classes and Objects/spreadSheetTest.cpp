@@ -3,15 +3,23 @@
 #include <vector>
 using namespace std;
 
-void printSpreadSheet(SpreadSheet ss) // 복사 일어남.
+template <typename T>
+void swapMove(T& a, T& b)
 {
-    //
+    T temp { std::move(a)};
+    a = std::move(b);
+    b = std::move(temp);
 }
 
-SpreadSheet createObject()
-{
-    return SpreadSheet { 3, 2 };
-}
+// void printSpreadSheet(SpreadSheet ss) // 복사 일어남.
+// {
+//     //
+// }
+
+// SpreadSheet createObject()
+// {
+//     return SpreadSheet { 3, 2 };
+// }
 
 int main()
 {
@@ -48,4 +56,11 @@ int main()
     // copy assignment constructor
     // Normal constructor
     // Copy constructor
+
+    SpreadSheetCell c1 { 5.8 };
+    SpreadSheetCell c2 { 10.3 };
+
+    SpreadSheetCell c3 { c1 + c2 };
+    cout << c3.getValue() << endl;
+    
 }

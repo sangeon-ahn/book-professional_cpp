@@ -1,62 +1,13 @@
+#include "spreadSheet.h"
 #include <cstddef>
-#include "spreadSheetCell.h"
 #include <utility>
+#include <stdexcept>
 #include <algorithm>
-#include <memory>
 using namespace std;
 
-class SpreadSheetApplication
-{};
+class SpreadSheet::Impl {
 
-class SpreadSheet
-{
-    public:
-        class Cell;
-
-        static const size_t MaxHeight { 100 };
-        static const size_t MaxWidth { 100 };
-        SpreadSheet(size_t width = 100, size_t height = 100, const SpreadSheetApplication& theApp);
-        SpreadSheet(const SpreadSheet& src); // copy constructor
-        ~SpreadSheet();
-        
-        SpreadSheet(SpreadSheet&& src) noexcept; // move constructor
-        SpreadSheet& operator=(SpreadSheet&& rhs) noexcept; // move assignment operator
-
-        SpreadSheet& operator=(const SpreadSheet& rhs); // copy assignment operator
-        void swap(SpreadSheet& other) noexcept;
-
-        void setCellAt(size_t x, size_t y, const SpreadSheetCell& cell);
-        SpreadSheetCell& getCellAt(size_t x, size_t y) const;
-        size_t getId() const;
-    private:
-        // bool inRange(size_t value, size_t upper) const;
-        // void verifyCoordinate(size_t x, size_t y) const;
-
-        // void cleanup() noexcept;
-        // void moveFrom(SpreadSheet& src) noexcept;
-
-        // size_t m_width { 0 };
-        // size_t m_height { 0 };
-        // const size_t m_id { 0 }; // 바뀌면 안돼서
-        // const SpreadSheetApplication& m_theApp;
-        // // string m_name {""};
-        // SpreadSheetCell** m_cells { nullptr };
-        // static inline size_t ms_counter;
-
-        class Impl;
-        std::unique_ptr<Impl> m_impl;
 };
-
-class SpreadSheet::Cell
-{
-    public:
-        Cell() = default;
-        Cell(double initialValue);
-};
-// void swap(SpreadSheet& first, SpreadSheet& second) noexcept
-// {
-//     first.swap(second);
-// }
 
 size_t SpreadSheet::getId() const
 {
@@ -70,7 +21,7 @@ void SpreadSheet::swap(SpreadSheet& other) noexcept
 }
 
 // normal constructor
-SpreadSheet::SpreadSheet(size_t width, size_t height, const SpreadSheetApplication& theApp) : m_width{min(width, MaxWidth)}, m_height{min(height, MaxHeight)}, m_id{ms_counter++}, m_theApp{theApp}
+SpreadSheet::Impl::Impl(size_t width, size_t height, const SpreadSheetApplication& theApp) : m_width{min(width, MaxWidth)}, m_height{min(height, MaxHeight)}, m_id{ms_counter++}, m_theApp{theApp}
 {
     m_cells = new SpreadSheetCell*[m_width]; // m_width개의 SpreadSheetCell*을 원소로 갖는 배열 생성후 배열 시작점을 m_cells에 할당
     for (size_t i { 0 }; i < m_width; ++i) {

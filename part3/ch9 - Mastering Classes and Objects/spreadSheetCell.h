@@ -13,18 +13,53 @@ class SpreadSheetCell
         ~SpreadSheetCell();
         
         SpreadSheetCell& operator=(const SpreadSheetCell& rhs);
-
+        SpreadSheetCell operator+(double rhs) const;
+        SpreadSheetCell operator+(const SpreadSheetCell& cell) const;
         void setValue(double value);
         double getValue() const;
 
         void setString(std::string_view value);
         std::string getString() const;
+
+        enum class Color { Red = 1, Green, Blue, Yellow };
+        void setColor(Color color);
+        Color getColor() const;
+
+        SpreadSheetCell add(const SpreadSheetCell& cell) const;
     private:
-        std::string doubleToString(double value) const;
-        double stringToDouble(std::string_view value) const;
+        static std::string doubleToString(double value);
+        static double stringToDouble(std::string_view value);
 
         double m_value { 0 };
+        mutable size_t m_numAccesses { 0 };
+        Color m_color { Color::Red };
 };
+
+SpreadSheetCell SpreadSheetCell::operator+(double rhs) const
+{
+    return SpreadSheetCell { getValue() + rhs };
+}
+
+SpreadSheetCell SpreadSheetCell::operator+(const SpreadSheetCell& cell) const
+{
+    return SpreadSheetCell { getValue() + cell.getValue() };
+}
+
+SpreadSheetCell SpreadSheetCell::add(const SpreadSheetCell& cell) const
+{
+    // getValue()는 const 메서드라 호출 가능, normal constructor 호출해서 Cell 생성 후 리턴. RVO
+    return SpreadSheetCell { getValue() + cell.getValue() };
+}
+
+void SpreadSheetCell::setColor(Color color)
+{
+    m_color = color;
+}
+
+SpreadSheetCell::Color SpreadSheetCell::getColor() const
+{
+    return m_color;
+}
 
 SpreadSheetCell::SpreadSheetCell(double initialValue)
 {
@@ -59,7 +94,8 @@ void SpreadSheetCell::setValue(double value) {
     m_value = value;
 }
 
-double SpreadSheetCell::getValue() const {
+inline double SpreadSheetCell::getValue() const {
+    ++m_numAccesses;
     return m_value;
 }
 void printCell(const SpreadSheetCell& cell)
@@ -74,15 +110,16 @@ void SpreadSheetCell::setString(string_view value)
 
 string SpreadSheetCell::getString() const
 {
+    ++m_numAccesses;
     return doubleToString(m_value);
 }
 
-string SpreadSheetCell::doubleToString(double value) const
+string SpreadSheetCell::doubleToString(double value)
 {
     return to_string(value);
 } 
 
-double SpreadSheetCell::stringToDouble(string_view value) const
+double SpreadSheetCell::stringToDouble(string_view value)
 {
     return stod(value.data());
 }
