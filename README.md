@@ -8,7 +8,7 @@
 - 못 지킬 확률: 80%
 
 ## 진행도
-- 36.6%(440p/1200p)
+- 38.5%(463p/1200p)
 
 ## 목차
 
@@ -25,7 +25,7 @@
 - [x] 8장 - Gaining Proficiency with Classes and Objects
 - [x] 9장 - Mastering Classes and Objects
 - [x] 10장 - Discovering Inheritance Techniques
-- [ ] 11장 - Odds and Ends
+- [x] 11장 - Odds and Ends
 - [ ] 12장 - Writing Generic Code with Templates
 - [ ] 13장 - Demystifying C++ I/O
 - [ ] 14장 - Handling Errors
