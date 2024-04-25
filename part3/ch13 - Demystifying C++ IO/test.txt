@@ -1,0 +1,3 @@
+There were 1 arguments to this program.
+They are: 
+/Users/seon/Documents/devel/professional c++/part3/ch13 - Demystifying C++ IO/file_stream
