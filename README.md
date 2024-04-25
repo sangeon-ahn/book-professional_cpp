@@ -8,7 +8,7 @@
 - 못 지킬 확률: 80%
 
 ## 진행도
-- 39.5%(475p/1200p)
+- 42.2%(507p/1200p)
 
 ## 목차
 
@@ -26,7 +26,7 @@
 - [x] 9장 - Mastering Classes and Objects
 - [x] 10장 - Discovering Inheritance Techniques
 - [x] 11장 - Odds and Ends
-- [ ] 12장 - Writing Generic Code with Templates
+- [x] 12장 - Writing Generic Code with Templates
 - [ ] 13장 - Demystifying C++ I/O
 - [ ] 14장 - Handling Errors
 - [ ] 15장 - Overloading C++ I/O
