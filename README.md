@@ -8,7 +8,7 @@
 - 못 지킬 확률: 80%
 
 ## 진행도
-- 44.7%(537p/1200p)
+- 48%(576p/1200p)
 
 ## 목차
 
@@ -28,7 +28,7 @@
 - [x] 11장 - Odds and Ends
 - [x] 12장 - Writing Generic Code with Templates
 - [x] 13장 - Demystifying C++ I/O
-- [ ] 14장 - Handling Errors
+- [x] 14장 - Handling Errors
 - [ ] 15장 - Overloading C++ I/O
 - [ ] 16장 - Overview of the C++ Standard Library
 - [ ] 17장 - Understanding Iterators and the Ranges Library
