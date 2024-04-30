@@ -1,14 +1,19 @@
 # 책: [Professional C++](https://www.amazon.com/Professional-C-Marc-Gregoire/dp/1119695406)
 
-## 스터디 일정
-- 2024.4.20 ~ 2024.5.2(필요시 연장)
+## 결과
+- 15장 이후부터는 지엽적이거나 당장 알 필요가 없는 내용이라 판단하여 빠르게 넘어갔습니다.
+
+## 일정
+- 일정: 2024.4.20 ~ 2024.4.30
+- 상태: 종료
   
 ## 목표
 - 입사 전까지 1회독(1200p / 12일 = 일 100p)
-- 못 지킬 확률: 80%
 
 ## 진행도
-- 48%(576p/1200p)
+- 100%(1200p/1200p)
+- x체크: 하나씩 읽고 필기한 챕터 
+- -체크: 훑고 넘어간 챕터
 
 ## 목차
 
@@ -29,25 +34,25 @@
 - [x] 12장 - Writing Generic Code with Templates
 - [x] 13장 - Demystifying C++ I/O
 - [x] 14장 - Handling Errors
-- [ ] 15장 - Overloading C++ I/O
-- [ ] 16장 - Overview of the C++ Standard Library
-- [ ] 17장 - Understanding Iterators and the Ranges Library
-- [ ] 18장 - Standard Library Containers
-- [ ] 19장 - Function Pointers, Function Objects, and Lambda Expressions
-- [ ] 20장 - Mastering Standard Library Algorithms
-- [ ] 21장 - String Localization and Regular Expressions
-- [ ] 22장 - Date and Time Utilities
-- [ ] 23장 - Random Number Facilities
-- [ ] 24장 - Additional Library Utilities
+- [-] 15장 - Overloading C++ I/O
+- [x] 16장 - Overview of the C++ Standard Library
+- [-] 17장 - Understanding Iterators and the Ranges Library
+- [x] 18장 - Standard Library Containers
+- [-] 19장 - Function Pointers, Function Objects, and Lambda Expressions
+- [-] 20장 - Mastering Standard Library Algorithms
+- [-] 21장 - String Localization and Regular Expressions
+- [-] 22장 - Date and Time Utilities
+- [-] 23장 - Random Number Facilities
+- [-] 24장 - Additional Library Utilities
 ### PART 4 - MASTERING ADVANCED FEATURES OF C++
-- [ ] 25장 - Customizing and Extending the Standard Library
-- [ ] 26장 - Advanced Templates
-- [ ] 27장 - Multithreaded Programming with C++
+- [-] 25장 - Customizing and Extending the Standard Library
+- [-] 26장 - Advanced Templates
+- [x] 27장 - Multithreaded Programming with C++
 ### PART 5 - C++ SOFTWARE ENGINEERING
-- [ ] 28장 - Maximizing Software Engineering Methods
-- [ ] 29장 - Writing Efficient C++
-- [ ] 30장 - Becoming Adept at Testing
-- [ ] 31장 - Conquering Debugging
-- [ ] 32장 - Incorporating Design Techniques and Frameworks
-- [ ] 33장 - Applying Design Patterns
-- [ ] 34장 - Developing Cross-Platform and Cross-Language Applications
+- [x] 28장 - Maximizing Software Engineering Methods
+- [x] 29장 - Writing Efficient C++
+- [-] 30장 - Becoming Adept at Testing
+- [-] 31장 - Conquering Debugging
+- [-] 32장 - Incorporating Design Techniques and Frameworks
+- [-] 33장 - Applying Design Patterns
+- [-] 34장 - Developing Cross-Platform and Cross-Language Applications
