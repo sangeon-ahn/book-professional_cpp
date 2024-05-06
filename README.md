@@ -1,58 +1,58 @@
-# 책: [Professional C++](https://www.amazon.com/Professional-C-Marc-Gregoire/dp/1119695406)
+# Book: [Professional C++](https://www.amazon.com/Professional-C-Marc-Gregoire/dp/1119695406)
 
-## 결과
-- C++에서 unmanaged memory를 다루는 법과 OOP를 배웠습니다.
+## Result
+- I learned how to deal with unmanaged memory and OOP in C++.
 
-## 일정
-- 일정: 2024.4.20 ~ 2024.5.1
-- 상태: 종료
+## Schedule
+- Duration: 2024.4.20 to 2024.5.1
+- Status: Closed
   
-## 목표
-- 1회독(1200p / 12일 = 일 100p)
+## Goal
+- 1-time reading (1200p / 12 days = 100p/day)
 
-## 진행도
-- 100%(1200p/1200p)
-- x체크: 하나씩 읽고 필기한 챕터 
-- -체크: 훑고 넘어간 챕터
+## Progess Rate
+- 100% (1200p/1200p)
+- vChecked: Chapters read and noted one by one 
+- -Checked: Chapters skimmed
 
-## 목차
+## Table of Contents
 
 ### PART 1 - INTRODUCTION TO PROFESSIONAL C++
-- [x] 1장 - A Crash Course in C++ and the Standard Library
-- [x] 2장 - Working with Strings and String Views
-- [x] 3장 - Coding with Style
+- [x] ch1 - A Crash Course in C++ and the Standard Library
+- [x] ch2 - Working with Strings and String Views
+- [x] ch3 - Coding with Style
 ### PART 2 - PROFESSIONAL C++ SOFTWARE DESIGN 
-- [x] 4장 - Designing Professional C++ Programs
-- [x] 5장 - Designing with Objects
-- [x] 6장 - Designing for Reuse
+- [x] ch4 - Designing Professional C++ Programs
+- [x] ch5 - Designing with Objects
+- [x] ch6 - Designing for Reuse
 ### PART 3 - C++ CODING THE PROFESSIONAL WAY
-- [x] 7장 - Memory Management
-- [x] 8장 - Gaining Proficiency with Classes and Objects
-- [x] 9장 - Mastering Classes and Objects
-- [x] 10장 - Discovering Inheritance Techniques
-- [x] 11장 - Odds and Ends
-- [x] 12장 - Writing Generic Code with Templates
-- [x] 13장 - Demystifying C++ I/O
-- [x] 14장 - Handling Errors
-- [-] 15장 - Overloading C++ I/O
-- [x] 16장 - Overview of the C++ Standard Library
-- [-] 17장 - Understanding Iterators and the Ranges Library
-- [x] 18장 - Standard Library Containers
-- [-] 19장 - Function Pointers, Function Objects, and Lambda Expressions
-- [-] 20장 - Mastering Standard Library Algorithms
-- [-] 21장 - String Localization and Regular Expressions
-- [-] 22장 - Date and Time Utilities
-- [-] 23장 - Random Number Facilities
-- [-] 24장 - Additional Library Utilities
+- [x] ch7 - Memory Management
+- [x] ch8 - Gaining Proficiency with Classes and Objects
+- [x] ch9 - Mastering Classes and Objects
+- [x] ch10 - Discovering Inheritance Techniques
+- [x] ch11 - Odds and Ends
+- [x] ch12 - Writing Generic Code with Templates
+- [x] ch13 - Demystifying C++ I/O
+- [x] ch14 - Handling Errors
+- [-] ch15 - Overloading C++ I/O
+- [x] ch16 - Overview of the C++ Standard Library
+- [-] ch17 - Understanding Iterators and the Ranges Library
+- [x] ch18 - Standard Library Containers
+- [-] ch19 - Function Pointers, Function Objects, and Lambda Expressions
+- [-] ch20 - Mastering Standard Library Algorithms
+- [-] ch21 - String Localization and Regular Expressions
+- [-] ch22 - Date and Time Utilities
+- [-] ch23 - Random Number Facilities
+- [-] ch24 - Additional Library Utilities
 ### PART 4 - MASTERING ADVANCED FEATURES OF C++
-- [-] 25장 - Customizing and Extending the Standard Library
-- [-] 26장 - Advanced Templates
-- [x] 27장 - Multithreaded Programming with C++
+- [-] ch25 - Customizing and Extending the Standard Library
+- [-] ch26 - Advanced Templates
+- [x] ch27 - Multithreaded Programming with C++
 ### PART 5 - C++ SOFTWARE ENGINEERING
-- [x] 28장 - Maximizing Software Engineering Methods
-- [x] 29장 - Writing Efficient C++
-- [-] 30장 - Becoming Adept at Testing
-- [-] 31장 - Conquering Debugging
-- [-] 32장 - Incorporating Design Techniques and Frameworks
-- [-] 33장 - Applying Design Patterns
-- [-] 34장 - Developing Cross-Platform and Cross-Language Applications
+- [x] ch28 - Maximizing Software Engineering Methods
+- [x] ch29 - Writing Efficient C++
+- [-] ch30 - Becoming Adept at Testing
+- [-] ch31 - Conquering Debugging
+- [-] ch32 - Incorporating Design Techniques and Frameworks
+- [-] ch33 - Applying Design Patterns
+- [-] ch34 - Developing Cross-Platform and Cross-Language Applications
