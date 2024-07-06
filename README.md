@@ -10,7 +10,7 @@
 ## Goal
 - 1-time reading (1200p / 12 days = 100p/day)
 
-## Progess Rate
+## Progress Rate
 - 100% (1200p/1200p)
 - vChecked: Chapters read and noted one by one 
 - -Checked: Chapters skimmed
